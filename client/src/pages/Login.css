@@ -1,0 +1,57 @@
+.home {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #dadbd3;
+}
+
+
+.home__body {
+    background-color: #02bfa3;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    height: auto;
+    width: 50vw;
+    border-radius: 20px;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+
+.login__form {
+    align-items: center;
+    width: 80%;
+
+}
+
+.login__form input {
+    background-color: white !important;
+    border-radius: 10px;
+
+}
+
+.login__form .MuiInput-input {
+    padding: 10px;
+    width: 50%;
+
+}
+
+.login__form input:focus {
+    outline: none !important;
+}
+
+
+.invalid__text {
+    color: red;
+}
+
+.login__control {
+    padding: 10px;
+}
+
+.login__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
